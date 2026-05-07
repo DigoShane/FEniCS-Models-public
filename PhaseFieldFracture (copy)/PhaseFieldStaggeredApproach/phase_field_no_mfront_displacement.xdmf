@@ -1,0 +1,380 @@
+<?xml version="1.0"?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" []>
+<Xdmf Version="3.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <Domain>
+    <Grid Name="TimeSeries" GridType="Collection" CollectionType="Temporal">
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="3363" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="3363 3" NumberType="UInt" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/0/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="1787 2" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/0/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1787 3" Format="HDF">phase_field_no_mfront_displacement.h5:/VisualisationVector/0</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="3363" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="3363 3" NumberType="UInt" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/1/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="1787 2" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/1/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.014000000000000002" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1787 3" Format="HDF">phase_field_no_mfront_displacement.h5:/VisualisationVector/1</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="3363" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="3363 3" NumberType="UInt" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/2/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="1787 2" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/2/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.028000000000000004" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1787 3" Format="HDF">phase_field_no_mfront_displacement.h5:/VisualisationVector/2</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="3363" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="3363 3" NumberType="UInt" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/3/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="1787 2" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/3/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.04200000000000001" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1787 3" Format="HDF">phase_field_no_mfront_displacement.h5:/VisualisationVector/3</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="3363" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="3363 3" NumberType="UInt" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/4/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="1787 2" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/4/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.056000000000000008" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1787 3" Format="HDF">phase_field_no_mfront_displacement.h5:/VisualisationVector/4</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="3363" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="3363 3" NumberType="UInt" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/5/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="1787 2" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/5/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.070000000000000007" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1787 3" Format="HDF">phase_field_no_mfront_displacement.h5:/VisualisationVector/5</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="3363" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="3363 3" NumberType="UInt" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/6/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="1787 2" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/6/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0722" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1787 3" Format="HDF">phase_field_no_mfront_displacement.h5:/VisualisationVector/6</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="3363" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="3363 3" NumberType="UInt" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/7/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="1787 2" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/7/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.074400000000000008" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1787 3" Format="HDF">phase_field_no_mfront_displacement.h5:/VisualisationVector/7</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="3363" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="3363 3" NumberType="UInt" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/8/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="1787 2" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/8/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.076600000000000001" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1787 3" Format="HDF">phase_field_no_mfront_displacement.h5:/VisualisationVector/8</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="3363" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="3363 3" NumberType="UInt" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/9/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="1787 2" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/9/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.078800000000000009" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1787 3" Format="HDF">phase_field_no_mfront_displacement.h5:/VisualisationVector/9</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="3363" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="3363 3" NumberType="UInt" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/10/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="1787 2" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/10/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.081000000000000003" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1787 3" Format="HDF">phase_field_no_mfront_displacement.h5:/VisualisationVector/10</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="3363" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="3363 3" NumberType="UInt" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/11/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="1787 2" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/11/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.08320000000000001" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1787 3" Format="HDF">phase_field_no_mfront_displacement.h5:/VisualisationVector/11</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="3363" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="3363 3" NumberType="UInt" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/12/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="1787 2" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/12/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.085400000000000004" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1787 3" Format="HDF">phase_field_no_mfront_displacement.h5:/VisualisationVector/12</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="3363" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="3363 3" NumberType="UInt" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/13/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="1787 2" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/13/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.087600000000000011" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1787 3" Format="HDF">phase_field_no_mfront_displacement.h5:/VisualisationVector/13</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="3363" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="3363 3" NumberType="UInt" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/14/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="1787 2" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/14/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.089800000000000005" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1787 3" Format="HDF">phase_field_no_mfront_displacement.h5:/VisualisationVector/14</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="3363" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="3363 3" NumberType="UInt" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/15/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="1787 2" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/15/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.091999999999999998" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1787 3" Format="HDF">phase_field_no_mfront_displacement.h5:/VisualisationVector/15</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="3363" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="3363 3" NumberType="UInt" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/16/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="1787 2" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/16/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.094200000000000006" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1787 3" Format="HDF">phase_field_no_mfront_displacement.h5:/VisualisationVector/16</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="3363" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="3363 3" NumberType="UInt" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/17/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="1787 2" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/17/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.0964" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1787 3" Format="HDF">phase_field_no_mfront_displacement.h5:/VisualisationVector/17</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="3363" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="3363 3" NumberType="UInt" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/18/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="1787 2" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/18/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.098600000000000007" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1787 3" Format="HDF">phase_field_no_mfront_displacement.h5:/VisualisationVector/18</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="3363" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="3363 3" NumberType="UInt" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/19/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="1787 2" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/19/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.1008" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1787 3" Format="HDF">phase_field_no_mfront_displacement.h5:/VisualisationVector/19</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="3363" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="3363 3" NumberType="UInt" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/20/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="1787 2" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/20/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.10300000000000001" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1787 3" Format="HDF">phase_field_no_mfront_displacement.h5:/VisualisationVector/20</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="3363" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="3363 3" NumberType="UInt" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/21/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="1787 2" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/21/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.1052" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1787 3" Format="HDF">phase_field_no_mfront_displacement.h5:/VisualisationVector/21</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="3363" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="3363 3" NumberType="UInt" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/22/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="1787 2" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/22/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.1074" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1787 3" Format="HDF">phase_field_no_mfront_displacement.h5:/VisualisationVector/22</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="3363" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="3363 3" NumberType="UInt" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/23/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="1787 2" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/23/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.1096" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1787 3" Format="HDF">phase_field_no_mfront_displacement.h5:/VisualisationVector/23</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="3363" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="3363 3" NumberType="UInt" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/24/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="1787 2" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/24/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.11180000000000001" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1787 3" Format="HDF">phase_field_no_mfront_displacement.h5:/VisualisationVector/24</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="3363" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="3363 3" NumberType="UInt" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/25/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="1787 2" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/25/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.114" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1787 3" Format="HDF">phase_field_no_mfront_displacement.h5:/VisualisationVector/25</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="3363" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="3363 3" NumberType="UInt" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/26/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="1787 2" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/26/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.1162" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1787 3" Format="HDF">phase_field_no_mfront_displacement.h5:/VisualisationVector/26</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="3363" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="3363 3" NumberType="UInt" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/27/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="1787 2" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/27/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.11840000000000001" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1787 3" Format="HDF">phase_field_no_mfront_displacement.h5:/VisualisationVector/27</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="3363" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="3363 3" NumberType="UInt" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/28/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="1787 2" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/28/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.1206" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1787 3" Format="HDF">phase_field_no_mfront_displacement.h5:/VisualisationVector/28</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="3363" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="3363 3" NumberType="UInt" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/29/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="1787 2" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/29/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.12279999999999999" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1787 3" Format="HDF">phase_field_no_mfront_displacement.h5:/VisualisationVector/29</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="3363" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="3363 3" NumberType="UInt" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/30/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="1787 2" Format="HDF">phase_field_no_mfront_displacement.h5:/Mesh/30/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.125" />
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="1787 3" Format="HDF">phase_field_no_mfront_displacement.h5:/VisualisationVector/30</DataItem>
+        </Attribute>
+      </Grid>
+    </Grid>
+  </Domain>
+</Xdmf>

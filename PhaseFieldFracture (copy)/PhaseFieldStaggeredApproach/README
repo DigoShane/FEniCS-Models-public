@@ -1,0 +1,3 @@
+The staggered problem involves fixing d, then solving u. Then with this updated u, we solve for d.
+
+In order to better understadn the Staggered approach, we will first write code to solve the u and then the d problem separately. 
